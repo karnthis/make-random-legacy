@@ -3,23 +3,23 @@
 <!-- [![Build Status](https://travis-ci.org/johnfoderaro/make-random.svg?branch=master)](https://travis-ci.org/johnfoderaro/make-random) -->
 [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
 
-[![License: MIT](https://badgen.net/github/license/karnthis/make-random)](https://opensource.org/licenses/MIT)
-[![github: version](https://badgen.net/github/release/karnthis/make-random)](https://github.com/karnthis/make-random)
-[![github: last-commit](https://badgen.net/github/last-commit/karnthis/make-random)](https://github.com/karnthis/make-random)
-[![npm: version](https://badgen.net/npm/v/make-random)](https://www.npmjs.com/package/make-random)
-[![npm: downloads](https://badgen.net/npm/dt/make-random)](https://www.npmjs.com/package/make-random)
+[![License: MIT](https://badgen.net/github/license/karnthis/make-random-legacy)](https://opensource.org/licenses/MIT)
+[![github: version](https://badgen.net/github/release/karnthis/make-random-legacy)](https://github.com/karnthis/make-random-legacy)
+[![github: last-commit](https://badgen.net/github/last-commit/karnthis/make-random-legacy)](https://github.com/karnthis/make-random-legacy)
+[![npm: version](https://badgen.net/npm/v/make-random-legacy)](https://www.npmjs.com/package/make-random-legacy)
+[![npm: downloads](https://badgen.net/npm/dt/make-random-legacy)](https://www.npmjs.com/package/make-random-legacy)
 
 A lightweight Node.js module to help with generating a random number between either 1 or 0 and your specified "maximum" value. This module comes in handy for easily generating a random number for tasks such as dealing with arrays (zero based index) or pagination (one based index).
 
 ## Getting started
 ```shell
-npm install make-random
+npm install make-random-legacy
 ```
 
 ## Examples
 
 ```javascript
-const makeRandom = require('make-random');
+const makeRandom = require('make-random-legacy');
 
 makeRandom.ceil(200);
 // returns a random number between 1 and 200
